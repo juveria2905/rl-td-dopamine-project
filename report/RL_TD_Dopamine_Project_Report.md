@@ -223,7 +223,9 @@ flowchart TD
     Update -->|"Updated Estimates"| Agent
 ```
 
-The programmatic representation of this architectural cycle is rendered in **Figure 6** (saved in `results/figures/fig_architecture.png`).
+The programmatic representation of this architectural cycle is illustrated in **Figure 6** below:
+
+![System Architecture: TD Reinforcement Learning and Dopamine RPE Feedback Loop](../results/figures/fig_architecture.png)
 
 ---
 
@@ -374,23 +376,23 @@ This confirms that the TD error responds linearly and symmetrically to magnitude
 All figures below were generated automatically by `main.py` and saved to `results/figures/`:
 
 #### Figure 1: Reward Received Across Experimental Trials
-![Figure 1: Reward Received](file:///d:/RL/results/figures/fig1_reward_vs_trial.png)
+![Figure 1: Reward Received](../results/figures/fig1_reward_vs_trial.png)
 *Figure 1 shows the experimental reward schedule across the 120 conditioning trials ($r_t = 1.0$) followed by the 25 omission/extinction trials ($r_t = 0.0$).*
 
 #### Figure 2: Evolution of Estimated State Values
-![Figure 2: Predicted Value vs Trial](file:///d:/RL/results/figures/fig2_predicted_value_vs_trial.png)
+![Figure 2: Predicted Value vs Trial](../results/figures/fig2_predicted_value_vs_trial.png)
 *Figure 2 displays the progressive convergence of $V(s_{\text{reward}})$ to $1.0000$ and $V(s_{\text{cue}})$ to the theoretical asymptote $\gamma^4 R = 0.8145$, followed by extinction decay during the omission phase.*
 
 #### Figure 3: Temporal-Difference Error Evolution and RPE Dynamics
-![Figure 3: TD Error vs Trial](file:///d:/RL/results/figures/fig3_td_error_vs_trial.png)
+![Figure 3: TD Error vs Trial](../results/figures/fig3_td_error_vs_trial.png)
 *Figure 3 illustrates the decay of $\delta_{\text{reward}}$ to zero, the concurrent emergence of $\delta_{\text{cue}} = +0.8145$, and the pronounced negative dip ($\delta = -1.0000$) upon reward omission.*
 
 #### Figure 4: Performance Comparison — TD Learning vs Baselines
-![Figure 4: TD vs Baseline](file:///d:/RL/results/figures/fig4_td_vs_baseline.png)
+![Figure 4: TD vs Baseline](../results/figures/fig4_td_vs_baseline.png)
 *Figure 4 compares absolute prediction error (Panel A) and cumulative Mean Squared Prediction Error (Panel B) between the TD(0) agent, the Fixed Prediction Baseline ($V=0.5$), and the No-Learning Baseline ($V=0.0$).*
 
 #### Figure 5: Positive, Zero, and Negative Temporal-Difference Prediction Errors
-![Figure 5: Dopamine Firing Rate Profiles](file:///d:/RL/results/figures/fig5_rpe_profiles_dopamine.png)
+![Figure 5: Dopamine Firing Rate Profiles](../results/figures/fig5_rpe_profiles_dopamine.png)
 *Figure 5 depicts intra-trial step-by-step prediction error profiles across all four experimental conditions, reproducing the classic neurophysiological firing patterns reported by Wolfram Schultz (1997).*
 
 ---

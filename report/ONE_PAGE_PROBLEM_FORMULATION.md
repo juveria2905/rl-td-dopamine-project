@@ -64,3 +64,4 @@ where $\alpha = 0.15$ is the learning rate.
 - $\delta_t > 0$: Outcome is better than expected (Phasic dopamine burst).
 - $\delta_t \approx 0$: Outcome matches expectation (Tonic baseline firing).
 - $\delta_t < 0$: Outcome is worse than expected (Dopamine firing pause/depression).
+

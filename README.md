@@ -128,6 +128,17 @@ The simulation generates six high-resolution (300 DPI) figures saved in `results
 5. **`fig5_rpe_profiles_dopamine.png`**: Four-panel intra-trial peri-stimulus firing rate profile replicating the classic Wolfram Schultz (1997) findings.
 6. **`fig_architecture.png`**: Programmatic flowchart depicting the RL-Dopamine TD feedback cycle.
 
+### Key Visualizations Preview
+
+#### Figure 5: Positive, Zero, and Negative Temporal-Difference Prediction Errors (Dopamine Analogy)
+![Figure 5: Dopamine Firing Rate Profiles](results/figures/fig5_rpe_profiles_dopamine.png)
+
+#### Figure 4: TD Learning Performance vs Non-Learning Baselines (MSPE Convergence)
+![Figure 4: TD vs Baseline](results/figures/fig4_td_vs_baseline.png)
+
+#### System Architecture: RL-Dopamine Feedback Loop
+![System Architecture](results/figures/fig_architecture.png)
+
 ---
 
 ## 7. Submission Checklist
