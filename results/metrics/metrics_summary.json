@@ -1,0 +1,75 @@
+{
+    "experiment_config": {
+        "seed": 42,
+        "alpha": 0.15,
+        "gamma": 0.95,
+        "standard_reward": 1.0,
+        "boosted_reward": 2.0,
+        "trial_length": 6,
+        "cue_time": 0,
+        "reward_time": 4,
+        "num_training_trials": 120,
+        "num_omission_trials": 25
+    },
+    "convergence": {
+        "convergence_trial_threshold_0_05": 20,
+        "value_mae_against_theory": 5.493159855059678e-06,
+        "theoretical_state_values": [
+            0.8145062499999999,
+            0.8573749999999999,
+            0.9025,
+            0.95,
+            1.0,
+            0.0
+        ],
+        "learned_state_values": [
+            0.8145,
+            0.8574,
+            0.9025,
+            0.95,
+            1.0,
+            0.0
+        ]
+    },
+    "experiment_1_unexpected_reward": {
+        "initial_reward_delta": 1.0,
+        "initial_cue_delta": 0.0,
+        "initial_reward_value": 0.0,
+        "early_mean_reward_delta": 0.5354170637728515
+    },
+    "experiment_2_expected_reward": {
+        "final_reward_delta": 3.98889077324327e-09,
+        "final_cue_delta": 0.8144755584762494,
+        "final_reward_value": 0.9999999960111092,
+        "final_cue_value": 0.8144755584762494,
+        "theoretical_cue_value": 0.8145062499999999,
+        "late_mean_reward_delta": 2.802872627882813e-08,
+        "late_mean_cue_delta": 0.8143718138970331
+    },
+    "experiment_3_reward_omission": {
+        "first_omission_reward_delta": -0.9999999966094428,
+        "first_omission_cue_delta": 0.8144793115642835,
+        "first_omission_reward_value": 0.9999999966094428,
+        "final_extinction_reward_delta": -0.02023271740458559
+    },
+    "experiment_4_magnitude_variation": {
+        "condition_A_reward": 1.0,
+        "condition_A_reward_delta": 3.3905571683590097e-09,
+        "condition_A_cue_delta": 0.8144793115642835,
+        "condition_B_reward": 2.0,
+        "condition_B_reward_delta": 1.0000000033905572,
+        "condition_B_cue_delta": 0.8144793115642835,
+        "condition_C_reward": 0.5,
+        "condition_C_reward_delta": -0.49999999660944283,
+        "condition_C_cue_delta": 0.8144793115642835,
+        "learned_expectation_at_reward": 0.9999999966094428
+    },
+    "baseline_comparison": {
+        "td_mean_mspe": 0.030030030030030026,
+        "td_final_mspe": 1.0273837950253803e-16,
+        "fixed_mean_mspe": 0.25,
+        "fixed_final_mspe": 0.25,
+        "none_mean_mspe": 1.0,
+        "none_final_mspe": 1.0
+    }
+}

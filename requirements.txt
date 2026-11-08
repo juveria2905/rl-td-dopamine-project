@@ -1,0 +1,7 @@
+# Requirements for Project 22: Dopamine and Temporal-Difference Learning
+# Python >= 3.10 required
+numpy>=1.25.0
+matplotlib>=3.8.0
+pandas>=2.0.0
+scipy>=1.10.0
+

@@ -1,0 +1,4 @@
+Model,Initial_Reward_Delta,Final_Reward_Delta,Cue_Onset_Delta,Mean_MSPE,Final_MSPE,Adapts_To_Omission,Adapts_To_Magnitude
+TD(0) Learning Agent,1.0,3.98889077324327e-09,0.8144755584762494,0.030030030030030026,1.0273837950253803e-16,"Yes (Negative RPE dip, delta < 0)",Yes (Linear scaling with magnitude)
+Fixed Prediction Baseline (V=0.5),0.5,0.5,0.5,0.25,0.25,No (Static error),No (Static error)
+No-Learning Baseline (V=0.0),1.0,1.0,0.0,1.0,1.0,No (Zero response to cue),No (Zero adaptation)
