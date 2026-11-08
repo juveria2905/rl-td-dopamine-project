@@ -1,5 +1,9 @@
 # Dopamine & Temporal-Difference Learning
 ## 5-Slide Project Presentation
+**Presented by:**
+- Shaik Juveria Tabassum (`1005237290091`)
+- Dasari John Wesley (`100523729083`)
+- Kandula Naveen (`100523729089`)
 
 ---
 

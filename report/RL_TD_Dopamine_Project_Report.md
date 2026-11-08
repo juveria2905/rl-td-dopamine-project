@@ -10,13 +10,15 @@
 ---
 
 ### Student & Institutional Details
-- **Student Name:** `[STUDENT NAME PLACEHOLDER]`
-- **Roll Number / Student ID:** `[ROLL NUMBER PLACEHOLDER]`
-- **Department:** `[DEPARTMENT PLACEHOLDER, e.g., Department of Computer Science & Engineering]`
-- **Course Code & Title:** `[COURSE CODE PLACEHOLDER, e.g., CS421: Reinforcement Learning]`
+- **Project Team Members:**
+  1. **Shaik Juveria Tabassum** (Roll No: `1005237290091`)
+  2. **Dasari John Wesley** (Roll No: `100523729083`)
+  3. **Kandula Naveen** (Roll No: `100523729089`)
+- **Department:** Department of Computer Science & Engineering / Artificial Intelligence
+- **Course Code & Title:** Reinforcement Learning (CS Elective)
 - **Faculty / Supervisor Name:** `[FACULTY NAME PLACEHOLDER]`
-- **Academic Year / Semester:** `[ACADEMIC YEAR PLACEHOLDER, e.g., 2026–2027 / Semester VII]`
-- **Submission Date:** `[SUBMISSION DATE PLACEHOLDER]`
+- **Academic Year / Semester:** 2026–2027
+- **Submission Date:** November 2026
 
 ---
 

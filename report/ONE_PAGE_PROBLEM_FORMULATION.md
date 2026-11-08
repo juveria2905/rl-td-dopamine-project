@@ -5,9 +5,11 @@
 
 ### Course & Student Information
 - **Course:** Reinforcement Learning
-- **Student Name:** `[STUDENT NAME PLACEHOLDER]`
-- **Roll Number:** `[ROLL NUMBER PLACEHOLDER]`
 - **Project Track:** Project 22 — Dopamine and Temporal-Difference Learning
+- **Team Members:**
+  1. **Shaik Juveria Tabassum** (`1005237290091`)
+  2. **Dasari John Wesley** (`100523729083`)
+  3. **Kandula Naveen** (`100523729089`)
 
 ---
 
